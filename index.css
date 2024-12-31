@@ -33,7 +33,6 @@ body {
 
 .welcome-text span {
     display: inline-block;
-    animation: bounce 4s ease-in-out infinite;
     
 }
 
