@@ -24,7 +24,7 @@ body {
 
 /* نص الترحيب */
 .welcome-text {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
     display: inline-block;
@@ -33,7 +33,7 @@ body {
 
 .welcome-text span {
     display: inline-block;
-    animation: bounce 2s ease-in-out infinite;
+    animation: bounce 1s ease-in-out infinite;
     animation-delay: calc(var(--i) * 0.1s);
     --i: 0;
 }
@@ -53,11 +53,11 @@ body {
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
-        color: #0534a0;
+        color: #FFFDF0;
     }
     50% {
         transform: translateY(-20px);
-        color: #fe3815;
+        color:#FFFDF0;
     }
 }
 
