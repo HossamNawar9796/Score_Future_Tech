@@ -28,7 +28,7 @@ body {
     font-weight: bold;
     margin-bottom: 20px;
     display: inline-block;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 6s ease-in-out;
 }
 
 .welcome-text span {
