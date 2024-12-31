@@ -33,9 +33,8 @@ body {
 
 .welcome-text span {
     display: inline-block;
-    animation: bounce 6s ease-in-out infinite;
-    animation-delay: calc(var(--i) * 0.2s);
-    --i: 0;
+    animation: bounce 4s ease-in-out infinite;
+    
 }
 
 /* إعداد لكل حرف */
